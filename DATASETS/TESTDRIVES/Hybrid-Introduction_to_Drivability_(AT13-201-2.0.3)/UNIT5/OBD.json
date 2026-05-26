@@ -1,0 +1,94 @@
+{
+  "The check engine light indicates an engine malfunction.": {
+    "type": "choice",
+    "answers": [
+      "True"
+    ]
+  },
+  "Match each term to its correct description.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "retrieves fault codes",
+        "answer": "scan tool"
+      },
+      {
+        "text": "term for standard faults",
+        "answer": "DTC"
+      },
+      {
+        "text": "standard diagnostic connection for OBD II systems",
+        "answer": "DLC"
+      },
+      {
+        "text": "system used in vehicles before 1996",
+        "answer": "OBD I"
+      },
+      {
+        "text": "system used in vehicles after 1996",
+        "answer": "OBD II"
+      },
+      {
+        "text": "advises the driver of system concerns",
+        "answer": "MIL"
+      }
+    ]
+  },
+  "Match the term to its correct statement: p0301.JPG": {
+    "type": "match",
+    "map": [
+      {
+        "text": "P",
+        "answer": "Indicates vehicle area, such as chassis or communications"
+      },
+      {
+        "text": "0",
+        "answer": "Indicates a generic or manufacturer-specific code"
+      },
+      {
+        "text": "3",
+        "answer": "Indicates major vehicle system, such as engine control and body control"
+      },
+      {
+        "text": "01",
+        "answer": "Indicates specific fault or fault area"
+      }
+    ]
+  },
+  "OBD I systems use a check engine light to indicate concerns.": {
+    "type": "choice",
+    "answers": [
+      "True"
+    ]
+  },
+  "A MIL is flashing in an OBD II vehicle. Technician A says that a flashing MIL indicates a possible catalyst-damaging concern. Technician B says that a flashing MIL indicates that the vehicle must be serviced immediately. Which technician is correct?": {
+    "type": "choice",
+    "answers": [
+      "Both technician A and technician B"
+    ]
+  },
+  "The check engine light indicates which cylinder misfires.": {
+    "type": "choice",
+    "answers": [
+      "False"
+    ]
+  },
+  "OBD I reports only sensor faults.": {
+    "type": "choice",
+    "answers": [
+      "False"
+    ]
+  },
+  "One main scan tool is used with OBD I.": {
+    "type": "choice",
+    "answers": [
+      "False"
+    ]
+  },
+  "OBD I used standardized DTCs.": {
+    "type": "choice",
+    "answers": [
+      "False"
+    ]
+  }
+}

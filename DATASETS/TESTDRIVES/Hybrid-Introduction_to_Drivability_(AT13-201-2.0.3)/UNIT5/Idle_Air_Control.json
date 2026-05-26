@@ -1,0 +1,77 @@
+{
+  "Match each component to its correct location.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "1",
+        "answer": "IAC motor"
+      },
+      {
+        "text": "2",
+        "answer": "valve shaft"
+      },
+      {
+        "text": "3",
+        "answer": "IAC valve"
+      },
+      {
+        "text": "4",
+        "answer": "inlet and outlet valves"
+      }
+    ]
+  },
+  "Match each component to its correct description.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "delivers air to the cylinders",
+        "answer": "intake manifold"
+      },
+      {
+        "text": "houses the IAC motor and IAC shaft",
+        "answer": "IAC valve"
+      },
+      {
+        "text": "actuates the valve shaft",
+        "answer": "IAC motor"
+      },
+      {
+        "text": "houses the throttle plate",
+        "answer": "throttle body"
+      },
+      {
+        "text": "where air flows to the valve shaft",
+        "answer": "inlet port"
+      },
+      {
+        "text": "where air flows from the valve to the intake manifold",
+        "answer": "outlet port"
+      },
+      {
+        "text": "component that turns to allow air to escape the valve",
+        "answer": "valve shaft"
+      }
+    ]
+  },
+  "Match each type to its correct description.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "moves when ECM alters polarity within the coil windings",
+        "answer": "stepper motor IAC"
+      },
+      {
+        "text": "controlled by ECM using duty cycle",
+        "answer": "pulse width modulated solenoid IAC"
+      },
+      {
+        "text": "opens and closes according to engine temperature",
+        "answer": "thermo idle speed control"
+      },
+      {
+        "text": "turns either on or off with a vacuum or electrical signal",
+        "answer": "solenoid idle speed control"
+      }
+    ]
+  }
+}

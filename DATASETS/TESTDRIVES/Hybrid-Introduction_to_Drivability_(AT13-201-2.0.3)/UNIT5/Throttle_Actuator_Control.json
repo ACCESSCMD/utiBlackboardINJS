@@ -1,0 +1,108 @@
+{
+  "Electronic throttle control is used in older vehicles.": {
+    "type": "choice",
+    "answers": [
+      "False"
+    ]
+  },
+  "Select the correct name for the image: 20111a.JPG": {
+    "type": "choice",
+    "answers": [
+      "ECM"
+    ]
+  },
+  "Select the correct name for the image: 20111b.JPG": {
+    "type": "choice",
+    "answers": [
+      "throttle plate"
+    ]
+  },
+  "Match each component to its correct location.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "1",
+        "answer": "throttle position sensor"
+      },
+      {
+        "text": "2",
+        "answer": "return spring"
+      },
+      {
+        "text": "3",
+        "answer": "throttle plate"
+      },
+      {
+        "text": "4",
+        "answer": "throttle shaft"
+      }
+    ]
+  },
+  "Select the correct name for the image: 20111d.JPG": {
+    "type": "choice",
+    "answers": [
+      "throttle position sensor"
+    ]
+  },
+  "Select the correct name for the image: 20111e.JPG": {
+    "type": "choice",
+    "answers": [
+      "throttle body"
+    ]
+  },
+  "Match each statement to its correct category.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Mechanical",
+        "answer": "used in older vehicles"
+      },
+      {
+        "text": "Electronic",
+        "answer": "ECM controls throttle position"
+      }
+    ]
+  },
+  "Match the statements to complete the sentences.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "If you are unsure of the cause of the concern, you should ________ to retrieve any DTCs.",
+        "answer": "connect your scan tool"
+      },
+      {
+        "text": "When you need to check for an open circuit, you should __________.",
+        "answer": "use your DMM"
+      },
+      {
+        "text": "In order to troubleshoot a concern based on DTCs, you should ________.",
+        "answer": "consult service information"
+      }
+    ]
+  },
+  "Select the correct name for the image: 20111c.JPG": {
+    "type": "choice",
+    "answers": [
+      "accelerator pedal"
+    ]
+  },
+  "Match each statement to its correct category (mechanical vs electronic).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Mechanical",
+        "answer": "uses cable linkage"
+      },
+      {
+        "text": "Electronic",
+        "answer": "uses wires with sensors"
+      }
+    ]
+  },
+  "Select the correct name for the image: 20111f.JPG": {
+    "type": "choice",
+    "answers": [
+      "return spring"
+    ]
+  }
+}

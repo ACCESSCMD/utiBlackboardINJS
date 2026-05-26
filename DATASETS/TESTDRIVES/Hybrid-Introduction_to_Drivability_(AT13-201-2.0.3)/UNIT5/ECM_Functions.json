@@ -1,0 +1,64 @@
+{
+  "Match each component to its correct description (vehicle systems).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "turns on warning lights and operates gauges",
+        "answer": "instrument panel cluster"
+      },
+      {
+        "text": "uses resistance keys or transponder keys to prevent theft",
+        "answer": "security alarm system"
+      },
+      {
+        "text": "uses vehicle height sensors to monitor driving conditions",
+        "answer": "suspension control"
+      },
+      {
+        "text": "detects a vehicle crash and alerts ECM to shut down the engine and fuel system",
+        "answer": "supplemental restraint system"
+      },
+      {
+        "text": "sends a rough road message to the ECM if the wheel speed signals are erratic",
+        "answer": "ABS module"
+      },
+      {
+        "text": "controls vehicle speed",
+        "answer": "cruise control module"
+      },
+      {
+        "text": "detects tire slippage and reduces torque",
+        "answer": "traction control"
+      }
+    ]
+  },
+  "Match each component to its correct description (sensors and drivers).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "type of variable resistance sensor with three terminals",
+        "answer": "potentiometer"
+      },
+      {
+        "text": "controls the circuit's power side",
+        "answer": "high side driver"
+      },
+      {
+        "text": "controls output using a fixed frequency signal",
+        "answer": "pulse width modulation"
+      },
+      {
+        "text": "changes resistance as temperature changes",
+        "answer": "thermistor"
+      },
+      {
+        "text": "consists of a magnet, a shutter wheel, and a semiconductor switch",
+        "answer": "Hall effect sensor"
+      },
+      {
+        "text": "transistor that completes the ground path circuit",
+        "answer": "low side driver"
+      }
+    ]
+  }
+}

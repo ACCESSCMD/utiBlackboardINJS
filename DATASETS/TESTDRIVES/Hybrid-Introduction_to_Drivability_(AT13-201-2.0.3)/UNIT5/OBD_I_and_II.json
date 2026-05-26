@@ -1,0 +1,73 @@
+{
+  "Two technicians are discussing OBD I systems. Technician A says you must use a scan tool to retrieve DTCs from the ECM. Technician B says that you may be able to retrieve fault codes by grounding the appropriate DLC terminal. Which technician is correct?": {
+    "type": "choice",
+    "answers": [
+      "Technician B"
+    ]
+  },
+  "Monitors switch conditions.": {
+    "type": "choice",
+    "answers": [
+      "KOER"
+    ]
+  },
+  "Match each DTC type to its correct description.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Type A",
+        "answer": "illuminates the MIL after one failed trip"
+      },
+      {
+        "text": "Type B",
+        "answer": "illuminates the MIL after two consecutive failed trips"
+      },
+      {
+        "text": "Type C",
+        "answer": "illuminates the service engine soon light when a non-emissions fault is found"
+      },
+      {
+        "text": "Type D",
+        "answer": "illuminates the service engine soon light when a manufacturer-specific non-emissions fault is found"
+      }
+    ]
+  },
+  "Operates actuators and checks for results.": {
+    "type": "choice",
+    "answers": [
+      "KOER"
+    ]
+  },
+  "Match each statement to its correct category.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "KOEO",
+        "answer": "key on - engine off"
+      },
+      {
+        "text": "KOER",
+        "answer": "key on - engine running"
+      }
+    ]
+  },
+  "A scan tool is not communicating with the ECM. Technician A says to check that the scan tool is properly connected. Technician B says to check the DLC connections and wiring to see if there is a wiring concern. Which Technician is correct?": {
+    "type": "choice",
+    "answers": [
+      "Both technician A and technician B"
+    ]
+  },
+  "Match each statement to its correct category (KOEO vs KOER checks).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "KOEO",
+        "answer": "checks outputs for hard faults"
+      },
+      {
+        "text": "KOER",
+        "answer": "checks input circuits for normal range of values"
+      }
+    ]
+  }
+}

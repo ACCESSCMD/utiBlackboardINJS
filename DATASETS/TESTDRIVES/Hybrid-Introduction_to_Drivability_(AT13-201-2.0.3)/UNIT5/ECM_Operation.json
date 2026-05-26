@@ -1,0 +1,97 @@
+{
+  "The ECM goes into ____________ mode when it recognizes a failure, and it continues to operate using limited operating parameters.": {
+    "type": "choice",
+    "answers": [
+      "limp home"
+    ]
+  },
+  "Match each statement to its correct category (Limp Home vs Clear Flood).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Limp Home Mode",
+        "answer": "uses programmed data"
+      },
+      {
+        "text": "Clear Flood Mode",
+        "answer": "occurs during start-up"
+      }
+    ]
+  },
+  "Match each statement to its correct category (Open Loop vs Closed Loop start condition).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Open Loop",
+        "answer": "cold start"
+      },
+      {
+        "text": "Closed Loop",
+        "answer": "warm start"
+      }
+    ]
+  },
+  "When ___________, the ECM runs in open loop.": {
+    "type": "choice",
+    "answers": [
+      "cold starting"
+    ]
+  },
+  "Match each statement to its correct category (fuel delivery).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Open Loop",
+        "answer": "programmed fuel delivery"
+      },
+      {
+        "text": "Closed Loop",
+        "answer": "precise fuel delivery"
+      }
+    ]
+  },
+  "When _________ in closed loop, the ECM commands a precise amount of fuel delivery.": {
+    "type": "choice",
+    "answers": [
+      "accelerating"
+    ]
+  },
+  "Match each statement to its correct category (oxygen sensor usage).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Open Loop",
+        "answer": "oxygen sensor data not used"
+      },
+      {
+        "text": "Closed Loop",
+        "answer": "oxygen sensor data used"
+      }
+    ]
+  },
+  "The ECM stops fuel injection in which mode?": {
+    "type": "choice",
+    "answers": [
+      "Clear Flood Mode"
+    ]
+  },
+  "When _______, the ECM cuts off fuel delivery so the engine does not stall.": {
+    "type": "choice",
+    "answers": [
+      "decelerating"
+    ]
+  },
+  "Match each statement to its correct category (failure conditions).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Limp Home Mode",
+        "answer": "sensor data missing"
+      },
+      {
+        "text": "Clear Flood Mode",
+        "answer": "too much fuel in the air/fuel mixture"
+      }
+    ]
+  }
+}
