@@ -1,0 +1,22 @@
+{
+  "Choose the correct answers.Which of the following statements are true?": {
+    "type": "choice",
+    "answers": [
+      "Idle is the lowest speed at which the engine will run smoothly.",
+      "The IAC system uses a valve to channel air to the engine.",
+      "PWM IAC systems use varying voltage to actuate the valve."
+    ]
+  },
+  "Choose the correct answer.Which component moves the IAC valve shaft to allow air to pass through?": {
+    "type": "choice",
+    "answers": [
+      "IAC motor"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.If the engine idle speed reaches a high level, the ECM reverses th": {
+    "type": "choice",
+    "answers": [
+      "IAC valve"
+    ]
+  }
+}

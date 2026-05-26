@@ -1,0 +1,197 @@
+{
+  "Choose the correct answers.Which of the following statements are related to the KOEO mode?": {
+    "type": "choice",
+    "answers": [
+      "Engine off",
+      "Checks engine for hard faults"
+    ]
+  },
+  "Choose the correct answers.Which of the following statements are related to the KOER mode?": {
+    "type": "choice",
+    "answers": [
+      "Engine running",
+      "Checks input circuits",
+      "Monitors switch conditions",
+      "Operates actuators"
+    ]
+  },
+  "Drag each term listed on the left to its appropriate description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "VIN",
+        "targetIndex": 3
+      },
+      {
+        "text": "KOEO",
+        "targetIndex": 0
+      },
+      {
+        "text": "KOER",
+        "targetIndex": 1
+      },
+      {
+        "text": "DTC",
+        "targetIndex": 2
+      },
+      {
+        "text": "Operating Parameters",
+        "targetIndex": 5
+      },
+      {
+        "text": "PID",
+        "targetIndex": 4
+      }
+    ]
+  },
+  "Choose the correct answer.Technician A says that there are only five OBD II modes that can be accessed in a scan tool. T": {
+    "type": "choice",
+    "answers": [
+      "Technician B"
+    ]
+  },
+  "Drag each ordered step listed on the left to its correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "1",
+        "targetIndex": 1
+      },
+      {
+        "text": "4",
+        "targetIndex": 2
+      },
+      {
+        "text": "2",
+        "targetIndex": 3
+      },
+      {
+        "text": "6",
+        "targetIndex": 5
+      },
+      {
+        "text": "3",
+        "targetIndex": 0
+      },
+      {
+        "text": "5",
+        "targetIndex": 4
+      }
+    ]
+  },
+  "Complete the statement by choosing the correct answer.To retrieve DTCs, a technician must first ________ .": {
+    "type": "choice",
+    "answers": [
+      "locate the DLC and connect it to the scan tool"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.After navigating to view the DTCs, the technician must ________ .": {
+    "type": "choice",
+    "answers": [
+      "retrieve freeze frame data"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.After interpreting the DTCs, the technician must ________ .": {
+    "type": "choice",
+    "answers": [
+      "look up the corresponding service information"
+    ]
+  },
+  "Choose the correct answer.Which type of DTC stores a freeze frame after two consecutive failed trips?": {
+    "type": "choice",
+    "answers": [
+      "Type B"
+    ]
+  },
+  "Choose the correct answer.Which two types of DTCs illuminate the service engine soon light when a fault is found?": {
+    "type": "choice",
+    "answers": [
+      "Types C and D"
+    ]
+  },
+  "Match each component on the left to its correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "CPU",
+        "targetIndex": 2
+      },
+      {
+        "text": "Input",
+        "targetIndex": 3
+      },
+      {
+        "text": "ECM",
+        "targetIndex": 0
+      },
+      {
+        "text": "PCM",
+        "targetIndex": 1
+      },
+      {
+        "text": "Actuator",
+        "targetIndex": 4
+      }
+    ]
+  },
+  "Choose the correct answer.Which type of memory can the CPU read, write, or erase in any order?": {
+    "type": "choice",
+    "answers": [
+      "RAM"
+    ]
+  },
+  "Choose the correct answer.Which type of memory is programmable?": {
+    "type": "choice",
+    "answers": [
+      "PROM"
+    ]
+  },
+  "Choose the correct answer.Which type of memory is on the CPU chip?": {
+    "type": "choice",
+    "answers": [
+      "ROM"
+    ]
+  },
+  "Choose the correct answer.Technician A says the ECM uses the oxygen sensor as a major input during open loop. Technician": {
+    "type": "choice",
+    "answers": [
+      "Technician B"
+    ]
+  },
+  "Choose the correct answers.Which of the following are characteristics of a open loop mode of ECM?": {
+    "type": "choice",
+    "answers": [
+      "Cold start",
+      "ECM ignores oxygen sensor",
+      "Operates with preprogrammed data"
+    ]
+  },
+  "Choose the correct answers.Which of the following are characteristics of a closed loop mode of ECM?": {
+    "type": "choice",
+    "answers": [
+      "Uses oxygen sensor input",
+      "Warm start"
+    ]
+  },
+  "Choose the correct answer.Technician A says that when the ECM loses sensor input, it compensates for the lost data by su": {
+    "type": "choice",
+    "answers": [
+      "Both technician A and technician B"
+    ]
+  },
+  "Choose the correct answers.Which of the following are characteristics of a limp home mode?": {
+    "type": "choice",
+    "answers": [
+      "ECM operates despite lost data",
+      "Runs on fixed sensor data",
+      "Also called fail-safe mode"
+    ]
+  },
+  "Choose the correct answers.Which of the following are characteristics of a clear flood mode?": {
+    "type": "choice",
+    "answers": [
+      "Only occurs during start-up",
+      "ECM stops fuel delivery"
+    ]
+  }
+}
