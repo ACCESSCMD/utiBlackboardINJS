@@ -1,0 +1,101 @@
+{
+  "Match the term to complete the statement.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "In early OBD systems, fault codes displayed after pressing a sequence of buttons or grounding specific wire terminals were referred to as",
+        "answer": "self-diagnostics"
+      },
+      {
+        "text": "Tools used to measure resistance, voltage, and current are called",
+        "answer": "digital multimeters"
+      },
+      {
+        "text": "On OBD II vehicles, technicians can retrieve DTCs through the use of",
+        "answer": "scan tools"
+      },
+      {
+        "text": "indicate a vehicle concern in an OBD I system",
+        "answer": "check engine light"
+      },
+      {
+        "text": "Technicians can view important service and repair information in",
+        "answer": "service information bulletins"
+      }
+    ]
+  },
+  "Match each component to its correct description.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "referred to as the brain of the OBD system",
+        "answer": "ECM"
+      },
+      {
+        "text": "referred to as input",
+        "answer": "sensor"
+      },
+      {
+        "text": "referred to as output",
+        "answer": "actuator"
+      }
+    ]
+  },
+  "Match each statement to its correct category.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "OBD I",
+        "answer": "monitors electrical faults only"
+      },
+      {
+        "text": "OBD II",
+        "answer": "standardized diagnostics"
+      }
+    ]
+  },
+  "Which OBD system component processes data?": {
+    "type": "choice",
+    "answers": [
+      "ECM"
+    ]
+  },
+  "Which OBD system component carries out commands?": {
+    "type": "choice",
+    "answers": [
+      "actuators"
+    ]
+  },
+  "Which component monitors conditions through electrical properties of resistance?": {
+    "type": "choice",
+    "answers": [
+      "sensors"
+    ]
+  },
+  "Match each statement to its category.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "OBD I",
+        "answer": "uses flash codes"
+      },
+      {
+        "text": "OBD II",
+        "answer": "monitors emission control system function"
+      }
+    ]
+  },
+  "Match each statement to its correct category (1980s and SAE).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "OBD I",
+        "answer": "used in the 1980s"
+      },
+      {
+        "text": "OBD II",
+        "answer": "result of the SAE recommendations"
+      }
+    ]
+  }
+}
