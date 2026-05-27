@@ -542,6 +542,9 @@ window.autoCourse = setInterval(() => {
 
   // ---> NEW: Open video transcripts to satisfy content review locks
   if (handleVideoTranscripts(doc, win)) return;
+
+  // ---> NEW: Flip all un-flipped flashcards
+  if (handleFlashcards(doc, win)) return;
   
   // 2. 🔥 NEW: Auto-exit protocol (Only runs if NO quiz is actively being processed)
   const progressEl = doc.querySelector(".nav-sidebar-header__progress-text");
@@ -583,6 +586,21 @@ window.autoCourse = setInterval(() => {
     click(nextBtn, win);
     return;
   }
+  
+  ///Flashcard Handling
+  function handleFlashcards(doc, win) {
+  // Target the front face of the flashcard that hasn't been flipped yet
+  const unflippedFronts = [...doc.querySelectorAll('.block-flashcard__front[aria-hidden="false"]')].filter(visible);
+
+  if (unflippedFronts.length > 0) {
+    // Click the first unflipped card. The framework will instantly set 
+    // aria-hidden="true" so the engine ignores it on the next tick.
+    click(unflippedFronts[0], win);
+    return true; 
+  }
+  
+  return false;
+}
 
   /// Video Handling
   function handleVideoTranscripts(doc, win) {
