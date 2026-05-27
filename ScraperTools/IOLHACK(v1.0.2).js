@@ -519,6 +519,68 @@ window.downloadCourseData = function() {
   }
 };
 
+function handleFlashcards(doc, win) {
+  // Target any flashcard section missing the '--flipped' class
+  const unflippedCards = [...doc.querySelectorAll('.block-flashcard:not(.block-flashcard--flipped)')];
+
+  for (let i = 0; i < unflippedCards.length; i++) {
+    const card = unflippedCards[i];
+    
+    // Safer visibility check using actual rendered dimensions
+    const rect = card.getBoundingClientRect();
+    if (rect.width > 0 && rect.height > 0) {
+      
+      // 💾 HARVEST DATA: Grab text from the .fr-view containers
+      const frontEl = card.querySelector('.block-flashcard__front .fr-view');
+      const backEl = card.querySelector('.block-flashcard__back .fr-view');
+      
+      if (frontEl && backEl) {
+        const frontText = frontEl.textContent.trim();
+        const backText = backEl.textContent.trim();
+        
+        // Save to Global Memory Bank if it doesn't already exist
+        if (frontText && !courseKnowledgeBase[frontText]) {
+          console.log(`💾 Flashcard Harvested: [${frontText}] -> [${backText}]`);
+          courseKnowledgeBase[frontText] = { 
+            type: 'flashcard', 
+            answer: backText 
+          };
+        }
+      }
+
+      // 🎯 TARGET CLICK: Strike the button first, fallback to the wrapper
+      const flipBtn = card.querySelector('button.block-flashcard__flip');
+      const frontFace = card.querySelector('.block-flashcard__front');
+      
+      if (flipBtn) {
+        click(flipBtn, win);
+      } else if (frontFace) {
+        click(frontFace, win);
+      }
+      
+      // Pause engine for one tick to let the CSS flip animation trigger
+      return true; 
+    }
+  }
+  
+  return false;
+}
+
+function handleVideoTranscripts(doc, win) {
+  const accordions = [...doc.querySelectorAll('.blocks-accordion__header')];
+  const transcriptBtn = accordions.find(btn => {
+    const textMatch = btn.textContent.toLowerCase().includes('transcript');
+    const isClosed = btn.getAttribute('aria-expanded') === 'false';
+    return textMatch && isClosed;
+  });
+
+  if (transcriptBtn && visible(transcriptBtn)) {
+    click(transcriptBtn, win);
+    return true; 
+  }
+  return false;
+}
+
 window.autoCourse = setInterval(() => {
   const win = findCourseFrame();
   if (!win) return;
@@ -540,10 +602,10 @@ window.autoCourse = setInterval(() => {
   // 1. Prioritize handling active quizzes
   if (handleQuiz(doc, win)) return;
 
-  // ---> NEW: Open video transcripts to satisfy content review locks
+  // ---> Open video transcripts to satisfy content review locks
   if (handleVideoTranscripts(doc, win)) return;
 
-  // ---> NEW: Flip all un-flipped flashcards
+  // ---> Flip all un-flipped flashcards (and harvest their data)
   if (handleFlashcards(doc, win)) return;
   
   // 2. 🔥 NEW: Auto-exit protocol (Only runs if NO quiz is actively being processed)
@@ -585,42 +647,7 @@ window.autoCourse = setInterval(() => {
   if (nextBtn && !nextBtn.disabled && visible(nextBtn)) {
     click(nextBtn, win);
     return;
-  }
-  
-  ///Flashcard Handling
-  function handleFlashcards(doc, win) {
-  // Target the front face of the flashcard that hasn't been flipped yet
-  const unflippedFronts = [...doc.querySelectorAll('.block-flashcard__front[aria-hidden="false"]')].filter(visible);
-
-  if (unflippedFronts.length > 0) {
-    // Click the first unflipped card. The framework will instantly set 
-    // aria-hidden="true" so the engine ignores it on the next tick.
-    click(unflippedFronts[0], win);
-    return true; 
-  }
-  
-  return false;
-}
-
-  /// Video Handling
-  function handleVideoTranscripts(doc, win) {
-  const accordions = [...doc.querySelectorAll('.blocks-accordion__header')];
-  
-  // Find an accordion that contains 'transcript' and is currently closed
-  const transcriptBtn = accordions.find(btn => {
-    const textMatch = btn.textContent.toLowerCase().includes('transcript');
-    const isClosed = btn.getAttribute('aria-expanded') === 'false';
-    return textMatch && isClosed;
-  });
-
-  if (transcriptBtn && visible(transcriptBtn)) {
-    click(transcriptBtn, win);
-    return true; // Indicates an action was taken
-  }
-  
-  return false;
-}
-  
+  }  
 }, CLICK_DELAY);
 
 console.log("🚀 Absolute Validation Engine with True Auto-Exit initialized.");
