@@ -539,6 +539,9 @@ window.autoCourse = setInterval(() => {
 
   // 1. Prioritize handling active quizzes
   if (handleQuiz(doc, win)) return;
+
+  // ---> NEW: Open video transcripts to satisfy content review locks
+  if (handleVideoTranscripts(doc, win)) return;
   
   // 2. 🔥 NEW: Auto-exit protocol (Only runs if NO quiz is actively being processed)
   const progressEl = doc.querySelector(".nav-sidebar-header__progress-text");
@@ -580,6 +583,25 @@ window.autoCourse = setInterval(() => {
     click(nextBtn, win);
     return;
   }
+
+  /// Video Handling
+  function handleVideoTranscripts(doc, win) {
+  const accordions = [...doc.querySelectorAll('.blocks-accordion__header')];
+  
+  // Find an accordion that contains 'transcript' and is currently closed
+  const transcriptBtn = accordions.find(btn => {
+    const textMatch = btn.textContent.toLowerCase().includes('transcript');
+    const isClosed = btn.getAttribute('aria-expanded') === 'false';
+    return textMatch && isClosed;
+  });
+
+  if (transcriptBtn && visible(transcriptBtn)) {
+    click(transcriptBtn, win);
+    return true; // Indicates an action was taken
+  }
+  
+  return false;
+}
   
 }, CLICK_DELAY);
 
