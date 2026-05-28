@@ -147,14 +147,16 @@ function syncSelectionsWithAnswers(quiz, answers, win) {
     if (isTargetAnswer) {
       totalTargetsMatched++;
       if (opt.getAttribute("aria-checked") !== "true") {
-        click(opt, win);
+        // 🎯 PATCH: Click the wrap if it exists, otherwise fallback to opt
+        click(wrap || opt, win);
       } else {
         properlyCheckedMatched++;
       }
       if (!isMultiResponse) break;
     } else {
       if (isMultiResponse && opt.getAttribute("aria-checked") === "true") {
-        click(opt, win);
+        // 🎯 PATCH: Click the wrap if it exists, otherwise fallback to opt
+        click(wrap || opt, win);
       }
     }
   }
@@ -444,28 +446,54 @@ function handleQuiz(doc, win) {
       }
       quizState.lastAction = now;
     } else {
-      const opts = quiz.querySelectorAll(".quiz-multiple-response-option, .quiz-multiple-choice-option");
-      const targetIndex = quizState.attemptNum % opts.length;
-      if (opts[targetIndex]) click(opts[targetIndex], win);
-      quizState.phase = 'SUBMITTING';
+      // 🎯 PATCH: If correct answers weren't parsed properly, fallback to Brute Forcer
+      quizState.phase = 'SELECTING';
       quizState.lastAction = now;
     }
     return true;
   }
   
+  // ⚙️ PATCH: BINARY BRUTE-FORCER INTEGRATION
   if (quizState.phase === 'SELECTING') {
-    const wrapperText = quiz.querySelector(".block-knowledge__wrapper")?.getAttribute("aria-label") || "";
-    const isMultiResponse = quiz.querySelectorAll(".quiz-multiple-response-option").length > 0 || wrapperText.toLowerCase().includes("multiple");
-    const opts = quiz.querySelectorAll(".quiz-multiple-response-option, .quiz-multiple-choice-option");
+    const isMultiResponse = !!quiz.querySelector(".quiz-multiple-response-option");
     
     if (isMultiResponse) {
-      opts.forEach(opt => { if (opt.getAttribute("aria-checked") !== "true") click(opt, win); });
+      // Target the outer <li> wrappers
+      const wraps = quiz.querySelectorAll(".quiz-multiple-response-option-wrap");
+      if (wraps.length === 0) {
+        quizState.phase = 'SUBMITTING';
+        return true;
+      }
+
+      // Calculate max combinations based on size (2^N - 1)
+      const totalCombinations = Math.pow(2, wraps.length) - 1;
+      const pattern = (quizState.attemptNum % totalCombinations) + 1;
+      
+      for (let i = 0; i < wraps.length; i++) {
+        const shouldBeChecked = (pattern & (1 << i)) !== 0;
+        
+        // Checkbox state lives on the inner div
+        const checkbox = wraps[i].querySelector('.quiz-multiple-response-option');
+        const isChecked = checkbox && checkbox.getAttribute("aria-checked") === "true";
+
+        if (shouldBeChecked !== isChecked) {
+          click(wraps[i], win); // Strike the outer <li> wrapper
+        }
+      }
     } else {
-      const targetIndex = quizState.attemptNum % opts.length;
-      if (opts[targetIndex] && opts[targetIndex].getAttribute("aria-checked") !== "true") {
-        click(opts[targetIndex], win);
+      // Standard Single Choice Iterator
+      const wraps = quiz.querySelectorAll(".quiz-multiple-choice-option-wrap");
+      if (wraps.length > 0) {
+        const targetIndex = quizState.attemptNum % wraps.length;
+        if (wraps[targetIndex]) {
+          const checkbox = wraps[targetIndex].querySelector('.quiz-multiple-choice-option');
+          if (checkbox && checkbox.getAttribute("aria-checked") !== "true") {
+            click(wraps[targetIndex], win);
+          }
+        }
       }
     }
+    
     quizState.phase = 'SUBMITTING';
     quizState.lastAction = now;
     return true;
