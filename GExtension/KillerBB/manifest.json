@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "UTI Blackboard Webservice",
+  "version": "2.1",
+  "description": "UTI... too much money...",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "icons": {
+    "16": "favicon.ico",
+    "48": "favicon.ico",
+    "128": "favicon.ico"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AutoEngine",
+    "default_icon": "favicon.ico"
+  }
+}
