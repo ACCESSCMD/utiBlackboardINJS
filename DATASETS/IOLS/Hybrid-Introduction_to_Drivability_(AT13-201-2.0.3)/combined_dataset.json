@@ -1,0 +1,1022 @@
+{
+  "source_archive": "IOLS.zip",
+  "total_files": 17,
+  "datasets": [
+    {
+      "file_name": "Fuel_Pressure_Gauges.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT2/Fuel_Pressure_Gauges.json",
+      "data": {
+        "Choose the correct answers.Which of the following statements are characteristics of fuel pressure gauges?": {
+          "type": "choice",
+          "answers": [
+            "Fuel pressure gauges are used for diagnosing fuel system concerns.",
+            "Fuel injection systems typically require a high-pressure gauge."
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Vacuum_Gauges.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT2/Vacuum_Gauges.json",
+      "data": {
+        "Choose the correct answer.Technician A says that vacuum gauges are more accurate when the intervals between the gauge numbers are small. Technician B says that the larger the interval between the numbers on the gauge, the more accurate the gauge. Which technician is correct?": {
+          "type": "choice",
+          "answers": [
+            "Technician A"
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Continuous_Fuel_Injection.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT3/Continuous_Fuel_Injection.json",
+      "data": {
+        "Match the numbers on the images to the numbers and titles given below.": {
+          "type": "choice",
+          "answers": [
+            "1 - Airflow Sensor, 2 - Fuel Distributor, 3 - Cold Start Valve, 4 - Control Plunger"
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Fuel.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT3/Fuel.json",
+      "data": {
+        "Drag each fuel type on the left to its to its correct description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Diesel",
+              "targetIndex": 1
+            },
+            {
+              "text": "Compressed Natural Gas",
+              "targetIndex": 4
+            },
+            {
+              "text": "Liquefied Petroleum Gas",
+              "targetIndex": 6
+            },
+            {
+              "text": "Gasoline",
+              "targetIndex": 0
+            },
+            {
+              "text": "E-85",
+              "targetIndex": 5
+            },
+            {
+              "text": "Methanol",
+              "targetIndex": 2
+            },
+            {
+              "text": "Biodiesel",
+              "targetIndex": 3
+            }
+          ]
+        },
+        "Choose the correct answers.Which of the following statements are true about fuel additives?": {
+          "type": "choice",
+          "answers": [
+            "Residue forms when gasoline evaporates.",
+            "Anti-icing agents may be added seasonally to prevent freezing.",
+            "Additives help to prevent clogging in the fuel system components."
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Fuel_Injection_System.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT3/Fuel_Injection_System.json",
+      "data": {
+        "Choose the correct answer.Which type of fuel injection system uses a governor to control injection timing?": {
+          "type": "choice",
+          "answers": [
+            "Mechanical"
+          ]
+        },
+        "Choose the correct answer.Which type of fuel injection system does the ECM control?": {
+          "type": "choice",
+          "answers": [
+            "Electronic"
+          ]
+        },
+        "Choose the correct answer.Which type of fuel injection system uses a mass airflow meter to report the amount of air flowing to the engine?": {
+          "type": "choice",
+          "answers": [
+            "Electronic"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.A ______________ system sprays fuel from the injector directly into the cylinder.": {
+          "type": "choice",
+          "answers": [
+            "gasoline direct injection"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.A _________________ system sprays the fuel from one injector through many poppet nozzles.": {
+          "type": "choice",
+          "answers": [
+            "central multiport fuel injection"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.A ________________ system uses electronic fuel injectors that mount to the intake manifold runners near the cylinder head.": {
+          "type": "choice",
+          "answers": [
+            "port fuel injection"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.A ______________ system sprays fuel above the throttle plate.": {
+          "type": "choice",
+          "answers": [
+            "throttle body injection"
+          ]
+        },
+        "Match each component listed on the left to its correct description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Fuel injector",
+              "targetIndex": 0
+            },
+            {
+              "text": "Fuel rail",
+              "targetIndex": 2
+            },
+            {
+              "text": "Fuel level sending unit",
+              "targetIndex": 5
+            },
+            {
+              "text": "Fuel damper",
+              "targetIndex": 4
+            },
+            {
+              "text": "Fuel pump",
+              "targetIndex": 1
+            },
+            {
+              "text": "Fuel pressure regulator",
+              "targetIndex": 3
+            },
+            {
+              "text": "Fuel line",
+              "targetIndex": 6
+            }
+          ]
+        },
+        "Choose the correct answers.Which of the following statements are true of an EFI operation?": {
+          "type": "choice",
+          "answers": [
+            "The ECM determines the length of time the fuel injectors remain open.",
+            "The amount of fuel delivered changes based on the amount of air entering the engine."
+          ]
+        },
+        "Choose the correct answer.Technician A says that most modern vehicles use a non-sequential timing method. Technician B says that sequential fuel injection is more fuel efficient than non-sequential. Which technician is correct?": {
+          "type": "choice",
+          "answers": [
+            "Technician B"
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Fuel_Injectors.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT3/Fuel_Injectors.json",
+      "data": {
+        "Drag each component on the left to its correct description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Nozzle",
+              "targetIndex": 1
+            },
+            {
+              "text": "Electrical connector",
+              "targetIndex": 6
+            },
+            {
+              "text": "Fuel inlet",
+              "targetIndex": 0
+            },
+            {
+              "text": "Injector filter",
+              "targetIndex": 5
+            },
+            {
+              "text": "Coil",
+              "targetIndex": 4
+            },
+            {
+              "text": "Armature",
+              "targetIndex": 3
+            },
+            {
+              "text": "Injector valve",
+              "targetIndex": 2
+            }
+          ]
+        },
+        "Drag each component listed on the left to its correct description listed on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Pintle valve injector",
+              "targetIndex": 5
+            },
+            {
+              "text": "Disc valve injector",
+              "targetIndex": 0
+            },
+            {
+              "text": "Top feed injector",
+              "targetIndex": 3
+            },
+            {
+              "text": "Piezoelectric injector",
+              "targetIndex": 6
+            },
+            {
+              "text": "Bottom feed injector",
+              "targetIndex": 1
+            },
+            {
+              "text": "Electromagnetic solenoid injector",
+              "targetIndex": 2
+            },
+            {
+              "text": "Poppet nozzle injector",
+              "targetIndex": 4
+            }
+          ]
+        },
+        "Choose the correct answer.Which type of injector opening sequence uses one pulse signal from the ECM to fire all of the injectors at the same time?": {
+          "type": "choice",
+          "answers": [
+            "Simultaneous injection"
+          ]
+        },
+        "Choose the correct answer.Which type of injector opening sequence fires one bank of injectors and then the other bank of injectors?": {
+          "type": "choice",
+          "answers": [
+            "Bank fire"
+          ]
+        },
+        "Choose the correct answer.Which type of injector opening sequence fires each injector according to the firing order?": {
+          "type": "choice",
+          "answers": [
+            "Sequential injection"
+          ]
+        },
+        "Choose the correct answers.Which of the following are characteristics of a warm engine?": {
+          "type": "choice",
+          "answers": [
+            "The ECM delivers a shorter PWM signal to the injectors.",
+            "The engine no longer requires a richer air/fuel mixture.",
+            "The fuel injectors spray less fuel."
+          ]
+        },
+        "Choose the correct answers.Which of the following are characteristics of a cold engine?": {
+          "type": "choice",
+          "answers": [
+            "The ECM delivers a longer PWM signal to the injectors.",
+            "The fuel injectors spray more fuel.",
+            "The engine requires a richer air/fuel mixture."
+          ]
+        },
+        "Drag each step listed on the left to its correct order on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Valve lifts off seat",
+              "targetIndex": 3
+            },
+            {
+              "text": "Sensors signal the ECM, which determines the correct PWM signal to send to fuel injectors",
+              "targetIndex": 1
+            },
+            {
+              "text": "ECM completes the injector circuit, and the injector energizes",
+              "targetIndex": 2
+            },
+            {
+              "text": "Ignition switch activates the relay and provides power to injectors",
+              "targetIndex": 0
+            }
+          ]
+        },
+        "Drag each step listed on the left to its correct order on the right (continued from the previous screen).": {
+          "type": "match",
+          "map": [
+            {
+              "text": "The Injector closes",
+              "targetIndex": 3
+            },
+            {
+              "text": "ECM opens injector circuit",
+              "targetIndex": 1
+            },
+            {
+              "text": "Fuel sprays out of nozzle",
+              "targetIndex": 0
+            },
+            {
+              "text": "Solenoid winding de-energizes",
+              "targetIndex": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Fuel_Pressure_Regulator.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT3/Fuel_Pressure_Regulator.json",
+      "data": {
+        "Choose the correct answers.Which of the following statements are true?": {
+          "type": "choice",
+          "answers": [
+            "Fuel pressure regulators control fuel pressure.",
+            "A vacuum-modulated regulator maintains a constant pressure drop across the fuel injector.",
+            "The spring inside the pressure regulator determines fuel pressure.",
+            "Regulators can be used on a return and returnless fuel systems.",
+            "Atmospheric regulators alter fuel pressure with changes in elevation."
+          ]
+        },
+        "Choose the correct answer.Which regulator modulates fuel pressure with changes in manifold vacuum?": {
+          "type": "choice",
+          "answers": [
+            "Vacuum-modulated pressure regulator"
+          ]
+        },
+        "Choose the correct answer.Which regulator modulates fuel pressure with changes in elevation?": {
+          "type": "choice",
+          "answers": [
+            "Atmospherically-modulated pressure regulator"
+          ]
+        },
+        "Choose the correct answer.Which regulator maintains the same fuel pressure regardless of manifold vacuum?": {
+          "type": "choice",
+          "answers": [
+            "Constant pressure regulator"
+          ]
+        },
+        "Choose the correct answers.Which of the following describe the fuel pressure regulator operation?": {
+          "type": "choice",
+          "answers": [
+            "The pressurized fuel enters the pressure regulator.",
+            "The system fuel pressure is controlled.",
+            "Force is exerted on the diaphragm."
+          ]
+        },
+        "Complete the statement by choosing the correct answer.__________ causes both intake manifold vacuum and fuel rail pressure to remain constant.": {
+          "type": "choice",
+          "answers": [
+            "Constant speed"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.__________ causes intake manifold vacuum to decrease and fuel rail pressure to increase.": {
+          "type": "choice",
+          "answers": [
+            "Acceleration"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.__________ causes intake manifold vacuum to increase and fuel rail pressure to decrease.": {
+          "type": "choice",
+          "answers": [
+            "Deceleration"
+          ]
+        },
+        "Match the terms on the left to the description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Diaphragm",
+              "targetIndex": 0
+            },
+            {
+              "text": "Pressure Spring",
+              "targetIndex": 4
+            },
+            {
+              "text": "Vacuum Port",
+              "targetIndex": 1
+            },
+            {
+              "text": "Fuel Inlet",
+              "targetIndex": 2
+            },
+            {
+              "text": "Return Port",
+              "targetIndex": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Fuel_Pumps.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT3/Fuel_Pumps.json",
+      "data": {
+        "Choose the correct answer.Which types of fuel pumps commonly mount directly to the engine?": {
+          "type": "choice",
+          "answers": [
+            "Mechanical fuel pumps"
+          ]
+        },
+        "Choose the correct answer.Which types of fuel pumps commonly operate with fuel-injected systems?": {
+          "type": "choice",
+          "answers": [
+            "Electric fuel pumps"
+          ]
+        },
+        "Drag each component on the left to its correct description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Brushes",
+              "targetIndex": 5
+            },
+            {
+              "text": "Commutator",
+              "targetIndex": 4
+            },
+            {
+              "text": "Armature",
+              "targetIndex": 0
+            },
+            {
+              "text": "Magnets",
+              "targetIndex": 2
+            },
+            {
+              "text": "Impeller",
+              "targetIndex": 1
+            },
+            {
+              "text": "Wires",
+              "targetIndex": 3
+            }
+          ]
+        },
+        "Complete the statement by choosing the correct answer.Before the fuel pump can operate, the ________________ must be in the run position.": {
+          "type": "choice",
+          "answers": [
+            "ignition switch"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.The _______________ supplies voltage to the fuel pump.": {
+          "type": "choice",
+          "answers": [
+            "fuel pump relay"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.When fuel flows through the inlet valve, the ________________ sends fuel through the outlet valve.": {
+          "type": "choice",
+          "answers": [
+            "impeller"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.As voltage flows to the fuel pump, the _______________ rotates to operate the motor.": {
+          "type": "choice",
+          "answers": [
+            "armature"
+          ]
+        },
+        "Drag each component on the left to the question it correctly answers on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Diaphragm",
+              "targetIndex": 4
+            },
+            {
+              "text": "Diaphragm Spring",
+              "targetIndex": 2
+            },
+            {
+              "text": "Rocker Arm",
+              "targetIndex": 1
+            },
+            {
+              "text": "Camshaft",
+              "targetIndex": 0
+            },
+            {
+              "text": "Fuel Pump Chamber",
+              "targetIndex": 3
+            }
+          ]
+        },
+        "Drag each step listed on the left to the correct order on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "The diaphragm compresses, forcing the fuel out of the fuel pump.",
+              "targetIndex": 4
+            },
+            {
+              "text": "The rocker arm pulls the diaphragm downward, creating a vacuum to draw in the fuel.",
+              "targetIndex": 1
+            },
+            {
+              "text": "The camshaft eccentric rotates, allowing the rocker arm downward.",
+              "targetIndex": 2
+            },
+            {
+              "text": "The camshaft eccentric rotates, forcing the rocker arm upward.",
+              "targetIndex": 0
+            },
+            {
+              "text": "The diaphragm spring pushes the diaphragm upward.",
+              "targetIndex": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Fuel_System.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT3/Fuel_System.json",
+      "data": {
+        "Choose the correct answer.Which of the following is a characteristic of a mechanical fuel system?": {
+          "type": "choice",
+          "answers": [
+            "Operates fuel pump only when engine is running"
+          ]
+        },
+        "Choose the correct answer.Which of the following is a characteristic of a gravity fuel system?": {
+          "type": "choice",
+          "answers": [
+            "Uses tank above the carburetor"
+          ]
+        },
+        "Choose the correct answer.Which of the following is a characteristic of a vacuum fuel system?": {
+          "type": "choice",
+          "answers": [
+            "Uses suction to supply fuel"
+          ]
+        },
+        "Choose the correct answers.Which of the following are characteristics of an electrical fuel system?": {
+          "type": "choice",
+          "answers": [
+            "Found in newer vehicles",
+            "Controlled by ECM"
+          ]
+        },
+        "Match the numbers on the images to the numbers and titles given below.": {
+          "type": "choice",
+          "answers": [
+            "1- Fuel rail, 2 - Fuel pickup, and 3 - Fuel lines"
+          ]
+        },
+        "Choose the correct answers.Which of the following statements are true?": {
+          "type": "choice",
+          "answers": [
+            "Replace the fuel filter at the manufacturer's recommended intervals.",
+            "Dirt in the fuel lines can cause blockage.",
+            "A leak in the tank can cause a fault code concern.",
+            "Wear protective eyewear and clothing when servicing the fuel system."
+          ]
+        },
+        "Complete the statement by choosing the correct answer.To make sure the fuel filter was properly installed ____________ .": {
+          "type": "choice",
+          "answers": [
+            "run the engine and check for leaks"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.You should _________ to determine which way to install the fuel filter.": {
+          "type": "choice",
+          "answers": [
+            "look at the fuel filter arrows"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.Before you can replace the fuel filter, you first need to _____________ .": {
+          "type": "choice",
+          "answers": [
+            "remove the fuel pump fuse"
+          ]
+        },
+        "Complete the statement by choosing the correct answer.To contain any fuel spills during replacement ___________ .": {
+          "type": "choice",
+          "answers": [
+            "place a drain pan beneath the filter"
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Fuel_System_Components.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT3/Fuel_System_Components.json",
+      "data": {
+        "Choose the correct answers.Which of the following statements are true?": {
+          "type": "choice",
+          "answers": [
+            "The fuel tank, fuel lines, fittings, fuel pump, and filter make up the fuel supply system.",
+            "The average fuel tank holds 12 to 25 gallons.",
+            "Older fuel tanks are made of steel. Newer fuel tanks are made of plastic.",
+            "Fittings are used to join components."
+          ]
+        },
+        "Choose the correct answer.Technician A states that quick disconnect fittings are no longer used on late model vehicles. Technician B states that quick connect fittings may require a special tool to disconnect them. Which technician is correct?": {
+          "type": "choice",
+          "answers": [
+            "Technician B"
+          ]
+        },
+        "Choose the correct answer.Which filter uses pleated filtration media?": {
+          "type": "choice",
+          "answers": [
+            "Radial-V"
+          ]
+        },
+        "Choose the correct answer.In a gasoline fuel system, what does the fuel filter capture?": {
+          "type": "choice",
+          "answers": [
+            "Dirt particles"
+          ]
+        },
+        "Choose the correct answer.What can cause severe damage to a diesel injection system?": {
+          "type": "choice",
+          "answers": [
+            "Water"
+          ]
+        },
+        "Choose the correct answer.What filter media design is similar to a roll of toilet paper?": {
+          "type": "choice",
+          "answers": [
+            "Spiral-V"
+          ]
+        },
+        "Drag each term on the left to its correct description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Canister",
+              "targetIndex": 1
+            },
+            {
+              "text": "Bowl",
+              "targetIndex": 0
+            },
+            {
+              "text": "In-Line",
+              "targetIndex": 2
+            },
+            {
+              "text": "Sock",
+              "targetIndex": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Air_Filters.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT4/Air_Filters.json",
+      "data": {
+        "Drag each filter listed on the left to the correct description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Foam Filter",
+              "targetIndex": 3
+            },
+            {
+              "text": "Paper Filter",
+              "targetIndex": 0
+            },
+            {
+              "text": "Centrifugal Filter",
+              "targetIndex": 2
+            },
+            {
+              "text": "Cotton Gauze Filter",
+              "targetIndex": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Air_Induction_Systems.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT4/Air_Induction_Systems.json",
+      "data": {
+        "Drag each air induction system listed on the left to the appropriate description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Naturally aspirated",
+              "targetIndex": 0
+            },
+            {
+              "text": "Supercharger",
+              "targetIndex": 2
+            },
+            {
+              "text": "Turbocharger",
+              "targetIndex": 1
+            }
+          ]
+        },
+        "Choose the correct answer. This sensor provides immediate manifold pressure information to the engine’s ECM.": {
+          "type": "choice",
+          "answers": [
+            "MAP sensor"
+          ]
+        },
+        "Choose the correct answer. This sensor relays air flow information to the ECM.": {
+          "type": "choice",
+          "answers": [
+            "MAF sensor"
+          ]
+        },
+        "Choose the correct answer. This sensor relays the temperature of incoming air to the engine control module.": {
+          "type": "choice",
+          "answers": [
+            "IAT sensor"
+          ]
+        },
+        "Drag each component listed on the left to the appropriate description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Intake manifold",
+              "targetIndex": 6
+            },
+            {
+              "text": "MAF sensor",
+              "targetIndex": 2
+            },
+            {
+              "text": "Ductwork",
+              "targetIndex": 3
+            },
+            {
+              "text": "Intake port",
+              "targetIndex": 5
+            },
+            {
+              "text": "Air filter",
+              "targetIndex": 0
+            },
+            {
+              "text": "IAT sensor",
+              "targetIndex": 1
+            },
+            {
+              "text": "Throttle body assembly",
+              "targetIndex": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Ignition_Coils.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT4/Ignition_Coils.json",
+      "data": {
+        "Drag each ignition coil type on the left to its correct description on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Oil-filled",
+              "targetIndex": 1
+            },
+            {
+              "text": "E-core",
+              "targetIndex": 0
+            }
+          ]
+        },
+        "Choose the correct answers. Which of the following statements are true about ignition coils?": {
+          "type": "choice",
+          "answers": [
+            "Some ignition systems use one coil for every spark plug.",
+            "Modern systems use an E-core coil to send voltage to the spark plug.",
+            "All ignition coils have a primary winding and a secondary winding."
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Ignition_Systems.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT4/Ignition_Systems.json",
+      "data": {
+        "Choose the correct answers. Which of the following statements are true about ignition systems?": {
+          "type": "choice",
+          "answers": [
+            "Ignition systems must turn the primary circuits on and off to induce voltage.",
+            "The spark needs to fire long enough to ignite the air/fuel mixture.",
+            "The electric arc must be strong enough to jump the spark plug gap for ignition."
+          ]
+        },
+        "Choose the correct answer. What is the main purpose of the ignition system?": {
+          "type": "choice",
+          "answers": [
+            "Produce high voltage to create the spark for combustion"
+          ]
+        },
+        "Choose the correct answer. Which type of ignition system uses a magnetic pickup coil?": {
+          "type": "choice",
+          "answers": [
+            "Compression ignition system"
+          ]
+        },
+        "Choose the correct answer. Which type of ignition system uses mechanical contacts to control the ignition spark?": {
+          "type": "choice",
+          "answers": [
+            "Breaker point"
+          ]
+        },
+        "Refer to the number on the image and then drag each component to the appropriate number.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Ignition coil",
+              "targetIndex": 7
+            },
+            {
+              "text": "Ignition switch",
+              "targetIndex": 6
+            },
+            {
+              "text": "Battery",
+              "targetIndex": 2
+            },
+            {
+              "text": "ECM",
+              "targetIndex": 1
+            },
+            {
+              "text": "Spark plug",
+              "targetIndex": 5
+            },
+            {
+              "text": "Ignition coil wire",
+              "targetIndex": 4
+            },
+            {
+              "text": "Distributor",
+              "targetIndex": 3
+            },
+            {
+              "text": "Spark plug wire",
+              "targetIndex": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Mutual_Induction_Theory.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT4/Mutual_Induction_Theory.json",
+      "data": {
+        "Complete the statement by choosing the correct answer. When electrical current flows through a wire conductor, it creates a __________ .": {
+          "type": "choice",
+          "answers": [
+            "magnetic field"
+          ]
+        },
+        "Complete the statement by choosing the correct answer. Lines of force within a magnetic field are known as __________ .": {
+          "type": "choice",
+          "answers": [
+            "flux"
+          ]
+        },
+        "Complete the statement by choosing the correct answer. If one electromagnet is near enough to another coil, you can cause mutual induction by __________ .": {
+          "type": "choice",
+          "answers": [
+            "cutting the current to the first electromagnet"
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "Spark_Plugs.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT4/Spark_Plugs.json",
+      "data": {
+        "Choose the correct answer. Which type of spark plug seat seals against the cylinder head without another sealing component?": {
+          "type": "choice",
+          "answers": [
+            "Tapered seat"
+          ]
+        },
+        "Choose the correct answers. Which of the following statements about spark plugs are true?": {
+          "type": "choice",
+          "answers": [
+            "Reach is the length of the threaded area of the shell.",
+            "Spark plugs may or may not contain a resistor.",
+            "The resistor filters electronic noise."
+          ]
+        },
+        "Choose the correct answer. When you inspect the spark plugs in a vehicle, you find that one of the spark plugs has an excessive gap. What might result from an excessive spark plug gap?": {
+          "type": "choice",
+          "answers": [
+            "Short burn time"
+          ]
+        }
+      }
+    },
+    {
+      "file_name": "The_Intake_Manifold.json",
+      "relative_path": "IOLS/Hybrid-Introduction_to_Drivability_(AT13-201-2.0.3)/UNIT4/The_Intake_Manifold.json",
+      "data": {
+        "Choose the correct answers. Which of the following statements are true about intake manifold components?": {
+          "type": "choice",
+          "answers": [
+            "The plenum controls distribution between runners.",
+            "The cylinder head ports receive air and/or fuel from the runners.",
+            "The plenum stabilizes air distribution."
+          ]
+        },
+        "Choose the correct answer. Fixed long runners improve torque output at what engine speeds?": {
+          "type": "choice",
+          "answers": [
+            "Lower"
+          ]
+        },
+        "Choose the correct answer. What advantage do individual runners give the manufacturer?": {
+          "type": "choice",
+          "answers": [
+            "Tuning of the manifold for maximum ram air effect"
+          ]
+        },
+        "Choose the correct answer. Fixed short runners improve torque output at what engine speeds?": {
+          "type": "choice",
+          "answers": [
+            "Higher"
+          ]
+        },
+        "Choose the correct answer. Match the numbers on the images to the numbers and titles given below.": {
+          "type": "choice",
+          "answers": [
+            "1 - Single Plane, 2 - IMRC, 3 - IMT, 4 - Dual Plane"
+          ]
+        },
+        "Drag the statements listed on the left to the correct steps of operation on the right.": {
+          "type": "match",
+          "map": [
+            {
+              "text": "Air enters intake ports and combustion chamber",
+              "targetIndex": 3
+            },
+            {
+              "text": "Air distributes to the intake runners",
+              "targetIndex": 1
+            },
+            {
+              "text": "Air picks up speed through the intake runner",
+              "targetIndex": 2
+            },
+            {
+              "text": "Air enters the manifold plenum through the throttle",
+              "targetIndex": 0
+            }
+          ]
+        },
+        "Choose the correct answer. Technician A states that you should measure the sealing surface with a micrometer. Technician B states that you should measure the sealing surface with a feeler gauge and a straight edge. Which technician is correct?": {
+          "type": "choice",
+          "answers": [
+            "Technician B"
+          ]
+        },
+        "Choose the correct answer. P0660 Intake Manifold Tuning Valve (IMTV) Control Circuit Open - Bank 1 What should be our next step?": {
+          "type": "choice",
+          "answers": [
+            "Check for Technical Service Information"
+          ]
+        },
+        "Choose the correct answer. Is the voltage supply to the IMRV above 10.5 volts?": {
+          "type": "choice",
+          "answers": [
+            "Yes"
+          ]
+        },
+        "Choose the correct answer. Is the resistance between the PCM and IMTV less than 5 ohms?": {
+          "type": "choice",
+          "answers": [
+            "Yes"
+          ]
+        },
+        "Choose the correct answer. Is the resistance between the PCM and IMTV greater than 10K ohms?": {
+          "type": "choice",
+          "answers": [
+            "Yes"
+          ]
+        },
+        "Choose the correct answer. Is the voltage less than 1 volt?": {
+          "type": "choice",
+          "answers": [
+            "Yes"
+          ]
+        },
+        "Choose the correct answer. Did the DMM show battery voltage during the actuator test?": {
+          "type": "choice",
+          "answers": [
+            "Yes"
+          ]
+        }
+      }
+    }
+  ]
+}
