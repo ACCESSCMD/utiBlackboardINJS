@@ -1,0 +1,20 @@
+{
+  "Complete the statement by choosing the correct answer. When electrical current flows through a wire conductor, it creates a __________ .": {
+    "type": "choice",
+    "answers": [
+      "magnetic field"
+    ]
+  },
+  "Complete the statement by choosing the correct answer. Lines of force within a magnetic field are known as __________ .": {
+    "type": "choice",
+    "answers": [
+      "flux"
+    ]
+  },
+  "Complete the statement by choosing the correct answer. If one electromagnet is near enough to another coil, you can cause mutual induction by __________ .": {
+    "type": "choice",
+    "answers": [
+      "cutting the current to the first electromagnet"
+    ]
+  }
+}

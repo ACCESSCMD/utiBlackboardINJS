@@ -1,0 +1,23 @@
+{
+  "Drag each filter listed on the left to the correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Foam Filter",
+        "targetIndex": 3
+      },
+      {
+        "text": "Paper Filter",
+        "targetIndex": 0
+      },
+      {
+        "text": "Centrifugal Filter",
+        "targetIndex": 2
+      },
+      {
+        "text": "Cotton Gauze Filter",
+        "targetIndex": 1
+      }
+    ]
+  }
+}

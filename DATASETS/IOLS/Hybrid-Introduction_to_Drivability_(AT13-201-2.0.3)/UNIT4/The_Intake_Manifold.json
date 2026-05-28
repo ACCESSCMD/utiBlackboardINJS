@@ -1,0 +1,97 @@
+{
+  "Choose the correct answers. Which of the following statements are true about intake manifold components?": {
+    "type": "choice",
+    "answers": [
+      "The plenum controls distribution between runners.",
+      "The cylinder head ports receive air and/or fuel from the runners.",
+      "The plenum stabilizes air distribution."
+    ]
+  },
+  "Choose the correct answer. Fixed long runners improve torque output at what engine speeds?": {
+    "type": "choice",
+    "answers": [
+      "Lower"
+    ]
+  },
+  "Choose the correct answer. What advantage do individual runners give the manufacturer?": {
+    "type": "choice",
+    "answers": [
+      "Tuning of the manifold for maximum ram air effect"
+    ]
+  },
+  "Choose the correct answer. Fixed short runners improve torque output at what engine speeds?": {
+    "type": "choice",
+    "answers": [
+      "Higher"
+    ]
+  },
+  "Choose the correct answer. Match the numbers on the images to the numbers and titles given below.": {
+    "type": "choice",
+    "answers": [
+      "1 - Single Plane, 2 - IMRC, 3 - IMT, 4 - Dual Plane"
+    ]
+  },
+  "Drag the statements listed on the left to the correct steps of operation on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Air enters intake ports and combustion chamber",
+        "targetIndex": 3
+      },
+      {
+        "text": "Air distributes to the intake runners",
+        "targetIndex": 1
+      },
+      {
+        "text": "Air picks up speed through the intake runner",
+        "targetIndex": 2
+      },
+      {
+        "text": "Air enters the manifold plenum through the throttle",
+        "targetIndex": 0
+      }
+    ]
+  },
+  "Choose the correct answer. Technician A states that you should measure the sealing surface with a micrometer. Technician B states that you should measure the sealing surface with a feeler gauge and a straight edge. Which technician is correct?": {
+    "type": "choice",
+    "answers": [
+      "Technician B"
+    ]
+  },
+  "Choose the correct answer. P0660 Intake Manifold Tuning Valve (IMTV) Control Circuit Open - Bank 1 What should be our next step?": {
+    "type": "choice",
+    "answers": [
+      "Check for Technical Service Information"
+    ]
+  },
+  "Choose the correct answer. Is the voltage supply to the IMRV above 10.5 volts?": {
+    "type": "choice",
+    "answers": [
+      "Yes"
+    ]
+  },
+  "Choose the correct answer. Is the resistance between the PCM and IMTV less than 5 ohms?": {
+    "type": "choice",
+    "answers": [
+      "Yes"
+    ]
+  },
+  "Choose the correct answer. Is the resistance between the PCM and IMTV greater than 10K ohms?": {
+    "type": "choice",
+    "answers": [
+      "Yes"
+    ]
+  },
+  "Choose the correct answer. Is the voltage less than 1 volt?": {
+    "type": "choice",
+    "answers": [
+      "Yes"
+    ]
+  },
+  "Choose the correct answer. Did the DMM show battery voltage during the actuator test?": {
+    "type": "choice",
+    "answers": [
+      "Yes"
+    ]
+  }
+}

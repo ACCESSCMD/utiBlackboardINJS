@@ -1,0 +1,65 @@
+{
+  "Choose the correct answers. Which of the following statements are true about ignition systems?": {
+    "type": "choice",
+    "answers": [
+      "Ignition systems must turn the primary circuits on and off to induce voltage.",
+      "The spark needs to fire long enough to ignite the air/fuel mixture.",
+      "The electric arc must be strong enough to jump the spark plug gap for ignition."
+    ]
+  },
+  "Choose the correct answer. What is the main purpose of the ignition system?": {
+    "type": "choice",
+    "answers": [
+      "Produce high voltage to create the spark for combustion"
+    ]
+  },
+  "Choose the correct answer. Which type of ignition system uses a magnetic pickup coil?": {
+    "type": "choice",
+    "answers": [
+      "Compression ignition system"
+    ]
+  },
+  "Choose the correct answer. Which type of ignition system uses mechanical contacts to control the ignition spark?": {
+    "type": "choice",
+    "answers": [
+      "Breaker point"
+    ]
+  },
+  "Refer to the number on the image and then drag each component to the appropriate number.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Ignition coil",
+        "targetIndex": 7
+      },
+      {
+        "text": "Ignition switch",
+        "targetIndex": 6
+      },
+      {
+        "text": "Battery",
+        "targetIndex": 2
+      },
+      {
+        "text": "ECM",
+        "targetIndex": 1
+      },
+      {
+        "text": "Spark plug",
+        "targetIndex": 5
+      },
+      {
+        "text": "Ignition coil wire",
+        "targetIndex": 4
+      },
+      {
+        "text": "Distributor",
+        "targetIndex": 3
+      },
+      {
+        "text": "Spark plug wire",
+        "targetIndex": 0
+      }
+    ]
+  }
+}

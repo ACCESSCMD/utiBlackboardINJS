@@ -1,0 +1,70 @@
+{
+  "Drag each air induction system listed on the left to the appropriate description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Naturally aspirated",
+        "targetIndex": 0
+      },
+      {
+        "text": "Supercharger",
+        "targetIndex": 2
+      },
+      {
+        "text": "Turbocharger",
+        "targetIndex": 1
+      }
+    ]
+  },
+  "Choose the correct answer. This sensor provides immediate manifold pressure information to the engine’s ECM.": {
+    "type": "choice",
+    "answers": [
+      "MAP sensor"
+    ]
+  },
+  "Choose the correct answer. This sensor relays air flow information to the ECM.": {
+    "type": "choice",
+    "answers": [
+      "MAF sensor"
+    ]
+  },
+  "Choose the correct answer. This sensor relays the temperature of incoming air to the engine control module.": {
+    "type": "choice",
+    "answers": [
+      "IAT sensor"
+    ]
+  },
+  "Drag each component listed on the left to the appropriate description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Intake manifold",
+        "targetIndex": 6
+      },
+      {
+        "text": "MAF sensor",
+        "targetIndex": 2
+      },
+      {
+        "text": "Ductwork",
+        "targetIndex": 3
+      },
+      {
+        "text": "Intake port",
+        "targetIndex": 5
+      },
+      {
+        "text": "Air filter",
+        "targetIndex": 0
+      },
+      {
+        "text": "IAT sensor",
+        "targetIndex": 1
+      },
+      {
+        "text": "Throttle body assembly",
+        "targetIndex": 4
+      }
+    ]
+  }
+}

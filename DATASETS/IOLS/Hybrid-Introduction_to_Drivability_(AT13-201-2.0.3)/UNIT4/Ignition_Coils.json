@@ -1,0 +1,23 @@
+{
+  "Drag each ignition coil type on the left to its correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Oil-filled",
+        "targetIndex": 1
+      },
+      {
+        "text": "E-core",
+        "targetIndex": 0
+      }
+    ]
+  },
+  "Choose the correct answers. Which of the following statements are true about ignition coils?": {
+    "type": "choice",
+    "answers": [
+      "Some ignition systems use one coil for every spark plug.",
+      "Modern systems use an E-core coil to send voltage to the spark plug.",
+      "All ignition coils have a primary winding and a secondary winding."
+    ]
+  }
+}
