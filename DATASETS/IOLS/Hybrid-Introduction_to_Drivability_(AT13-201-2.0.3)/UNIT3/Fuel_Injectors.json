@@ -1,0 +1,144 @@
+{
+  "Drag each component on the left to its correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Nozzle",
+        "targetIndex": 1
+      },
+      {
+        "text": "Electrical connector",
+        "targetIndex": 6
+      },
+      {
+        "text": "Fuel inlet",
+        "targetIndex": 0
+      },
+      {
+        "text": "Injector filter",
+        "targetIndex": 5
+      },
+      {
+        "text": "Coil",
+        "targetIndex": 4
+      },
+      {
+        "text": "Armature",
+        "targetIndex": 3
+      },
+      {
+        "text": "Injector valve",
+        "targetIndex": 2
+      }
+    ]
+  },
+  "Drag each component listed on the left to its correct description listed on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Pintle valve injector",
+        "targetIndex": 5
+      },
+      {
+        "text": "Disc valve injector",
+        "targetIndex": 0
+      },
+      {
+        "text": "Top feed injector",
+        "targetIndex": 3
+      },
+      {
+        "text": "Piezoelectric injector",
+        "targetIndex": 6
+      },
+      {
+        "text": "Bottom feed injector",
+        "targetIndex": 1
+      },
+      {
+        "text": "Electromagnetic solenoid injector",
+        "targetIndex": 2
+      },
+      {
+        "text": "Poppet nozzle injector",
+        "targetIndex": 4
+      }
+    ]
+  },
+  "Choose the correct answer.Which type of injector opening sequence uses one pulse signal from the ECM to fire all of the injectors at the same time?": {
+    "type": "choice",
+    "answers": [
+      "Simultaneous injection"
+    ]
+  },
+  "Choose the correct answer.Which type of injector opening sequence fires one bank of injectors and then the other bank of injectors?": {
+    "type": "choice",
+    "answers": [
+      "Bank fire"
+    ]
+  },
+  "Choose the correct answer.Which type of injector opening sequence fires each injector according to the firing order?": {
+    "type": "choice",
+    "answers": [
+      "Sequential injection"
+    ]
+  },
+  "Choose the correct answers.Which of the following are characteristics of a warm engine?": {
+    "type": "choice",
+    "answers": [
+      "The ECM delivers a shorter PWM signal to the injectors.",
+      "The engine no longer requires a richer air/fuel mixture.",
+      "The fuel injectors spray less fuel."
+    ]
+  },
+  "Choose the correct answers.Which of the following are characteristics of a cold engine?": {
+    "type": "choice",
+    "answers": [
+      "The ECM delivers a longer PWM signal to the injectors.",
+      "The fuel injectors spray more fuel.",
+      "The engine requires a richer air/fuel mixture."
+    ]
+  },
+  "Drag each step listed on the left to its correct order on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Valve lifts off seat",
+        "targetIndex": 3
+      },
+      {
+        "text": "Sensors signal the ECM, which determines the correct PWM signal to send to fuel injectors",
+        "targetIndex": 1
+      },
+      {
+        "text": "ECM completes the injector circuit, and the injector energizes",
+        "targetIndex": 2
+      },
+      {
+        "text": "Ignition switch activates the relay and provides power to injectors",
+        "targetIndex": 0
+      }
+    ]
+  },
+  "Drag each step listed on the left to its correct order on the right (continued from the previous screen).": {
+    "type": "match",
+    "map": [
+      {
+        "text": "The Injector closes",
+        "targetIndex": 3
+      },
+      {
+        "text": "ECM opens injector circuit",
+        "targetIndex": 1
+      },
+      {
+        "text": "Fuel sprays out of nozzle",
+        "targetIndex": 0
+      },
+      {
+        "text": "Solenoid winding de-energizes",
+        "targetIndex": 2
+      }
+    ]
+  }
+}

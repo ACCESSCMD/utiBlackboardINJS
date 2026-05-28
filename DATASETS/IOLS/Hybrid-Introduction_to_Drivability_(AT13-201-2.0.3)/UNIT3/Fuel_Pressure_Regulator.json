@@ -1,0 +1,81 @@
+{
+  "Choose the correct answers.Which of the following statements are true?": {
+    "type": "choice",
+    "answers": [
+      "Fuel pressure regulators control fuel pressure.",
+      "A vacuum-modulated regulator maintains a constant pressure drop across the fuel injector.",
+      "The spring inside the pressure regulator determines fuel pressure.",
+      "Regulators can be used on a return and returnless fuel systems.",
+      "Atmospheric regulators alter fuel pressure with changes in elevation."
+    ]
+  },
+  "Choose the correct answer.Which regulator modulates fuel pressure with changes in manifold vacuum?": {
+    "type": "choice",
+    "answers": [
+      "Vacuum-modulated pressure regulator"
+    ]
+  },
+  "Choose the correct answer.Which regulator modulates fuel pressure with changes in elevation?": {
+    "type": "choice",
+    "answers": [
+      "Atmospherically-modulated pressure regulator"
+    ]
+  },
+  "Choose the correct answer.Which regulator maintains the same fuel pressure regardless of manifold vacuum?": {
+    "type": "choice",
+    "answers": [
+      "Constant pressure regulator"
+    ]
+  },
+  "Choose the correct answers.Which of the following describe the fuel pressure regulator operation?": {
+    "type": "choice",
+    "answers": [
+      "The pressurized fuel enters the pressure regulator.",
+      "The system fuel pressure is controlled.",
+      "Force is exerted on the diaphragm."
+    ]
+  },
+  "Complete the statement by choosing the correct answer.__________ causes both intake manifold vacuum and fuel rail pressure to remain constant.": {
+    "type": "choice",
+    "answers": [
+      "Constant speed"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.__________ causes intake manifold vacuum to decrease and fuel rail pressure to increase.": {
+    "type": "choice",
+    "answers": [
+      "Acceleration"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.__________ causes intake manifold vacuum to increase and fuel rail pressure to decrease.": {
+    "type": "choice",
+    "answers": [
+      "Deceleration"
+    ]
+  },
+  "Match the terms on the left to the description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Diaphragm",
+        "targetIndex": 0
+      },
+      {
+        "text": "Pressure Spring",
+        "targetIndex": 4
+      },
+      {
+        "text": "Vacuum Port",
+        "targetIndex": 1
+      },
+      {
+        "text": "Fuel Inlet",
+        "targetIndex": 2
+      },
+      {
+        "text": "Return Port",
+        "targetIndex": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Choose the correct answer.Which of the following is a characteristic of a mechanical fuel system?": {
+    "type": "choice",
+    "answers": [
+      "Operates fuel pump only when engine is running"
+    ]
+  },
+  "Choose the correct answer.Which of the following is a characteristic of a gravity fuel system?": {
+    "type": "choice",
+    "answers": [
+      "Uses tank above the carburetor"
+    ]
+  },
+  "Choose the correct answer.Which of the following is a characteristic of a vacuum fuel system?": {
+    "type": "choice",
+    "answers": [
+      "Uses suction to supply fuel"
+    ]
+  },
+  "Choose the correct answers.Which of the following are characteristics of an electrical fuel system?": {
+    "type": "choice",
+    "answers": [
+      "Found in newer vehicles",
+      "Controlled by ECM"
+    ]
+  },
+  "Match the numbers on the images to the numbers and titles given below.": {
+    "type": "choice",
+    "answers": [
+      "1- Fuel rail, 2 - Fuel pickup, and 3 - Fuel lines"
+    ]
+  },
+  "Choose the correct answers.Which of the following statements are true?": {
+    "type": "choice",
+    "answers": [
+      "Replace the fuel filter at the manufacturer's recommended intervals.",
+      "Dirt in the fuel lines can cause blockage.",
+      "A leak in the tank can cause a fault code concern.",
+      "Wear protective eyewear and clothing when servicing the fuel system."
+    ]
+  },
+  "Complete the statement by choosing the correct answer.To make sure the fuel filter was properly installed ____________ .": {
+    "type": "choice",
+    "answers": [
+      "run the engine and check for leaks"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.You should _________ to determine which way to install the fuel filter.": {
+    "type": "choice",
+    "answers": [
+      "look at the fuel filter arrows"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.Before you can replace the fuel filter, you first need to _____________ .": {
+    "type": "choice",
+    "answers": [
+      "remove the fuel pump fuse"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.To contain any fuel spills during replacement ___________ .": {
+    "type": "choice",
+    "answers": [
+      "place a drain pan beneath the filter"
+    ]
+  }
+}

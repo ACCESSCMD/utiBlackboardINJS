@@ -1,0 +1,90 @@
+{
+  "Choose the correct answer.Which type of fuel injection system uses a governor to control injection timing?": {
+    "type": "choice",
+    "answers": [
+      "Mechanical"
+    ]
+  },
+  "Choose the correct answer.Which type of fuel injection system does the ECM control?": {
+    "type": "choice",
+    "answers": [
+      "Electronic"
+    ]
+  },
+  "Choose the correct answer.Which type of fuel injection system uses a mass airflow meter to report the amount of air flowing to the engine?": {
+    "type": "choice",
+    "answers": [
+      "Electronic"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.A ______________ system sprays fuel from the injector directly into the cylinder.": {
+    "type": "choice",
+    "answers": [
+      "gasoline direct injection"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.A _________________ system sprays the fuel from one injector through many poppet nozzles.": {
+    "type": "choice",
+    "answers": [
+      "central multiport fuel injection"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.A ________________ system uses electronic fuel injectors that mount to the intake manifold runners near the cylinder head.": {
+    "type": "choice",
+    "answers": [
+      "port fuel injection"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.A ______________ system sprays fuel above the throttle plate.": {
+    "type": "choice",
+    "answers": [
+      "throttle body injection"
+    ]
+  },
+  "Match each component listed on the left to its correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Fuel injector",
+        "targetIndex": 0
+      },
+      {
+        "text": "Fuel rail",
+        "targetIndex": 2
+      },
+      {
+        "text": "Fuel level sending unit",
+        "targetIndex": 5
+      },
+      {
+        "text": "Fuel damper",
+        "targetIndex": 4
+      },
+      {
+        "text": "Fuel pump",
+        "targetIndex": 1
+      },
+      {
+        "text": "Fuel pressure regulator",
+        "targetIndex": 3
+      },
+      {
+        "text": "Fuel line",
+        "targetIndex": 6
+      }
+    ]
+  },
+  "Choose the correct answers.Which of the following statements are true of an EFI operation?": {
+    "type": "choice",
+    "answers": [
+      "The ECM determines the length of time the fuel injectors remain open.",
+      "The amount of fuel delivered changes based on the amount of air entering the engine."
+    ]
+  },
+  "Choose the correct answer.Technician A says that most modern vehicles use a non-sequential timing method. Technician B says that sequential fuel injection is more fuel efficient than non-sequential. Which technician is correct?": {
+    "type": "choice",
+    "answers": [
+      "Technician B"
+    ]
+  }
+}

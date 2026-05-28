@@ -1,0 +1,43 @@
+{
+  "Drag each fuel type on the left to its to its correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Diesel",
+        "targetIndex": 1
+      },
+      {
+        "text": "Compressed Natural Gas",
+        "targetIndex": 4
+      },
+      {
+        "text": "Liquefied Petroleum Gas",
+        "targetIndex": 6
+      },
+      {
+        "text": "Gasoline",
+        "targetIndex": 0
+      },
+      {
+        "text": "E-85",
+        "targetIndex": 5
+      },
+      {
+        "text": "Methanol",
+        "targetIndex": 2
+      },
+      {
+        "text": "Biodiesel",
+        "targetIndex": 3
+      }
+    ]
+  },
+  "Choose the correct answers.Which of the following statements are true about fuel additives?": {
+    "type": "choice",
+    "answers": [
+      "Residue forms when gasoline evaporates.",
+      "Anti-icing agents may be added seasonally to prevent freezing.",
+      "Additives help to prevent clogging in the fuel system components."
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Choose the correct answers.Which of the following statements are characteristics of fuel pressure gauges?": {
+    "type": "choice",
+    "answers": [
+      "Fuel pressure gauges are used for diagnosing fuel system concerns.",
+      "Fuel injection systems typically require a high-pressure gauge."
+    ]
+  }
+}

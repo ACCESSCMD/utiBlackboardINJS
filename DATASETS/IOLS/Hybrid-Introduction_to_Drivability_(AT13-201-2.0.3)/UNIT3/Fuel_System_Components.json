@@ -1,0 +1,62 @@
+{
+  "Choose the correct answers.Which of the following statements are true?": {
+    "type": "choice",
+    "answers": [
+      "The fuel tank, fuel lines, fittings, fuel pump, and filter make up the fuel supply system.",
+      "The average fuel tank holds 12 to 25 gallons.",
+      "Older fuel tanks are made of steel. Newer fuel tanks are made of plastic.",
+      "Fittings are used to join components."
+    ]
+  },
+  "Choose the correct answer.Technician A states that quick disconnect fittings are no longer used on late model vehicles. Technician B states that quick connect fittings may require a special tool to disconnect them. Which technician is correct?": {
+    "type": "choice",
+    "answers": [
+      "Technician B"
+    ]
+  },
+  "Choose the correct answer.Which filter uses pleated filtration media?": {
+    "type": "choice",
+    "answers": [
+      "Radial-V"
+    ]
+  },
+  "Choose the correct answer.In a gasoline fuel system, what does the fuel filter capture?": {
+    "type": "choice",
+    "answers": [
+      "Dirt particles"
+    ]
+  },
+  "Choose the correct answer.What can cause severe damage to a diesel injection system?": {
+    "type": "choice",
+    "answers": [
+      "Water"
+    ]
+  },
+  "Choose the correct answer.What filter media design is similar to a roll of toilet paper?": {
+    "type": "choice",
+    "answers": [
+      "Spiral-V"
+    ]
+  },
+  "Drag each term on the left to its correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Canister",
+        "targetIndex": 1
+      },
+      {
+        "text": "Bowl",
+        "targetIndex": 0
+      },
+      {
+        "text": "In-Line",
+        "targetIndex": 2
+      },
+      {
+        "text": "Sock",
+        "targetIndex": 3
+      }
+    ]
+  }
+}

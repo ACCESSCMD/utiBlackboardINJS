@@ -1,0 +1,8 @@
+{
+  "Choose the correct answer.Technician A says that vacuum gauges are more accurate when the intervals between the gauge numbers are small. Technician B says that the larger the interval between the numbers on the gauge, the more accurate the gauge. Which technician is correct?": {
+    "type": "choice",
+    "answers": [
+      "Technician A"
+    ]
+  }
+}

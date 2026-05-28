@@ -1,0 +1,117 @@
+{
+  "Choose the correct answer.Which types of fuel pumps commonly mount directly to the engine?": {
+    "type": "choice",
+    "answers": [
+      "Mechanical fuel pumps"
+    ]
+  },
+  "Choose the correct answer.Which types of fuel pumps commonly operate with fuel-injected systems?": {
+    "type": "choice",
+    "answers": [
+      "Electric fuel pumps"
+    ]
+  },
+  "Drag each component on the left to its correct description on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Brushes",
+        "targetIndex": 5
+      },
+      {
+        "text": "Commutator",
+        "targetIndex": 4
+      },
+      {
+        "text": "Armature",
+        "targetIndex": 0
+      },
+      {
+        "text": "Magnets",
+        "targetIndex": 2
+      },
+      {
+        "text": "Impeller",
+        "targetIndex": 1
+      },
+      {
+        "text": "Wires",
+        "targetIndex": 3
+      }
+    ]
+  },
+  "Complete the statement by choosing the correct answer.Before the fuel pump can operate, the ________________ must be in the run position.": {
+    "type": "choice",
+    "answers": [
+      "ignition switch"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.The _______________ supplies voltage to the fuel pump.": {
+    "type": "choice",
+    "answers": [
+      "fuel pump relay"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.When fuel flows through the inlet valve, the ________________ sends fuel through the outlet valve.": {
+    "type": "choice",
+    "answers": [
+      "impeller"
+    ]
+  },
+  "Complete the statement by choosing the correct answer.As voltage flows to the fuel pump, the _______________ rotates to operate the motor.": {
+    "type": "choice",
+    "answers": [
+      "armature"
+    ]
+  },
+  "Drag each component on the left to the question it correctly answers on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "Diaphragm",
+        "targetIndex": 4
+      },
+      {
+        "text": "Diaphragm Spring",
+        "targetIndex": 2
+      },
+      {
+        "text": "Rocker Arm",
+        "targetIndex": 1
+      },
+      {
+        "text": "Camshaft",
+        "targetIndex": 0
+      },
+      {
+        "text": "Fuel Pump Chamber",
+        "targetIndex": 3
+      }
+    ]
+  },
+  "Drag each step listed on the left to the correct order on the right.": {
+    "type": "match",
+    "map": [
+      {
+        "text": "The diaphragm compresses, forcing the fuel out of the fuel pump.",
+        "targetIndex": 4
+      },
+      {
+        "text": "The rocker arm pulls the diaphragm downward, creating a vacuum to draw in the fuel.",
+        "targetIndex": 1
+      },
+      {
+        "text": "The camshaft eccentric rotates, allowing the rocker arm downward.",
+        "targetIndex": 2
+      },
+      {
+        "text": "The camshaft eccentric rotates, forcing the rocker arm upward.",
+        "targetIndex": 0
+      },
+      {
+        "text": "The diaphragm spring pushes the diaphragm upward.",
+        "targetIndex": 3
+      }
+    ]
+  }
+}
